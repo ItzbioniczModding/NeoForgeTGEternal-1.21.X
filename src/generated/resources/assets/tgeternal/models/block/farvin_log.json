@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tgeternal:block/farvin_log_top",
+    "side": "tgeternal:block/farvin_log"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tgeternal:block/sabboth_slab"
+    },
+    "type=double": {
+      "model": "tgeternal:block/sabboth_planks"
+    },
+    "type=top": {
+      "model": "tgeternal:block/sabboth_slab_top"
+    }
+  }
+}

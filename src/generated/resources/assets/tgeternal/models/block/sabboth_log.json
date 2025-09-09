@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tgeternal:block/sabboth_log_top",
+    "side": "tgeternal:block/sabboth_log"
+  }
+}

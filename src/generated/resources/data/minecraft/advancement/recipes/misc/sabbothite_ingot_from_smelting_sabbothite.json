@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sabbothite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgeternal:sabbothite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sabbothite_ingot_from_smelting_sabbothite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sabbothite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sabbothite_ingot_from_smelting_sabbothite"
+    ]
+  }
+}

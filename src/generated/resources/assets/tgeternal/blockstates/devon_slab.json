@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tgeternal:block/devon_slab"
+    },
+    "type=double": {
+      "model": "tgeternal:block/devon_planks"
+    },
+    "type=top": {
+      "model": "tgeternal:block/devon_slab_top"
+    }
+  }
+}

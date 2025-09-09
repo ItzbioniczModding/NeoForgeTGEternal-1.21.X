@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "farvin_stone",
+  "ingredient": {
+    "item": "tgeternal:farvin_cobblestone"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgeternal:farvin_stone"
+  }
+}

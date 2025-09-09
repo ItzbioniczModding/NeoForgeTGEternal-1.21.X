@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tgeternal:block/farvin_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tgeternal:block/farvin_wood"
+    },
+    "axis=z": {
+      "model": "tgeternal:block/farvin_wood_horizontal",
+      "x": 90
+    }
+  }
+}

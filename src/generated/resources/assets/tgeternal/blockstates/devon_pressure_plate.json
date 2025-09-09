@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "tgeternal:block/devon_pressure_plate"
+    },
+    "powered=true": {
+      "model": "tgeternal:block/devon_pressure_plate_down"
+    }
+  }
+}

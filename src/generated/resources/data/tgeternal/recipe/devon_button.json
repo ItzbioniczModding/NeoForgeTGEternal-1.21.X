@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "devon",
+  "ingredients": [
+    {
+      "item": "tgeternal:devon_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tgeternal:devon_button"
+  }
+}

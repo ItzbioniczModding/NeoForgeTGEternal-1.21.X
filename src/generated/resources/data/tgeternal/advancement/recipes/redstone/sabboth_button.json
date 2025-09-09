@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sabboth_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgeternal:sabboth_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tgeternal:sabboth_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sabboth_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tgeternal:sabboth_button"
+    ]
+  }
+}

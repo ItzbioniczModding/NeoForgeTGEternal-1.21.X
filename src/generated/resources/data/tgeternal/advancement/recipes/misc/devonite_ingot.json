@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_devonite_nuggets": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgeternal:devonite_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tgeternal:devonite_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_devonite_nuggets"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tgeternal:devonite_ingot"
+    ]
+  }
+}

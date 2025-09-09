@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tgeternal:block/farvin_planks",
+    "side": "tgeternal:block/farvin_planks",
+    "top": "tgeternal:block/farvin_planks"
+  }
+}

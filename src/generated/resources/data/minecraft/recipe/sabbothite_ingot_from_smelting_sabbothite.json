@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "sabbothite",
+  "ingredient": {
+    "item": "tgeternal:sabbothite"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgeternal:sabbothite_ingot"
+  }
+}

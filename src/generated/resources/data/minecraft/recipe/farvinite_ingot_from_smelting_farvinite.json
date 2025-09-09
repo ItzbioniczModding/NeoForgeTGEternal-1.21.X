@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "farvinite",
+  "ingredient": {
+    "item": "tgeternal:farvinite"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgeternal:farvinite_ingot"
+  }
+}

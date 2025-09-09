@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tgeternal:block/stripped_devon_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tgeternal:block/stripped_devon_log"
+    },
+    "axis=z": {
+      "model": "tgeternal:block/stripped_devon_log_horizontal",
+      "x": 90
+    }
+  }
+}

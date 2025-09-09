@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tgeternal:stripped_farvin_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "tgeternal:farvin_planks"
+  }
+}

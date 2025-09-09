@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sabbothite_nuggets": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgeternal:sabbothite_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tgeternal:sabbothite_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sabbothite_nuggets"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tgeternal:sabbothite_ingot"
+    ]
+  }
+}

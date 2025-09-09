@@ -1,0 +1,6 @@
+// 1.21	2025-08-20T05:48:56.6534532	Tags for minecraft:block mod id tgeternal
+efed61721ef59cc0e9a61f508612b435a236c78d data/minecraft/tags/block/fences.json
+a5d63228cb5106e6bde93cf57ad1d1f9a2cb7571 data/minecraft/tags/block/fence_gates.json
+695cc9cebd3082dd8d44f362b43c38397f1f11f3 data/minecraft/tags/block/mineable/axe.json
+6a3af8c9aa4f40a1bbe4c70eb93738a07fa7117f data/minecraft/tags/block/mineable/pickaxe.json
+0726c47913e3554cc13c36897ec68017cb55c776 data/minecraft/tags/block/mineable/shovel.json

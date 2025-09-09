@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tgeternal:stripped_sabboth_log"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tgeternal:blocks/stripped_sabboth_log"
+}

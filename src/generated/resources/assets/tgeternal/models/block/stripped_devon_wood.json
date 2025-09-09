@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tgeternal:block/stripped_devon_log",
+    "side": "tgeternal:block/stripped_devon_log"
+  }
+}

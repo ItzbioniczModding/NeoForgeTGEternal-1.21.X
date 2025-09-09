@@ -1,5 +1,8 @@
 package net.itzbionicz.tgeternal;
 
+import net.itzbionicz.tgeternal.block.ModBlocks;
+import net.itzbionicz.tgeternal.item.ModCreativeModeTabs;
+import net.itzbionicz.tgeternal.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -44,10 +47,23 @@ public class TGEternal {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
+
+
+
+
+
+
+
+
     public TGEternal(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -55,6 +71,13 @@ public class TGEternal {
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
+
+
+
+
+
+
+
 
     private void commonSetup(FMLCommonSetupEvent event) {
         // Some common setup code

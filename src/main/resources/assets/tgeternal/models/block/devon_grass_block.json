@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "tgeternal:block/devon_grass_block_top",
+    "side": "tgeternal:block/devon_grass_block_side",
+    "bottom": "tgeternal:block/devon_dirt"
+  }
+}
